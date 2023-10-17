@@ -6,6 +6,6 @@
  */
 int main(void)
 {
-	write(1, "_putchar\n", 9);
+	_putchar('_');
 	return (0);
 }
