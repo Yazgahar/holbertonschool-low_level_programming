@@ -1,6 +1,7 @@
 #include "main.h"
 /**
- * print_alphabet_x10 - print alph in low ten times
+ * _islower - check for lowercase
+ * @c: compare parameter
  *
  * Return: 1 or 0.
  */
