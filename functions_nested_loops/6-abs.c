@@ -1,14 +1,14 @@
-int _abs(int);
+#include "main.h"
 /**
  * _abs - computes absolute value of an int
- * @int: compare parameter
+ * @n: compare parameter
  *
  * Return: 1 or 0.
  */
-int _abs(int)
+int _abs(int n)
 {
-	if (int >= 0)
-		return (int * 1);
+	if (n >= 0)
+		return (n * 1);
 	else
-		return (int * -1);
+		return (n * -1);
 }
