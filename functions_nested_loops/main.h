@@ -7,7 +7,7 @@
 
 #include <stdlib.h>
 
-int _abs(int);
+int _abs(int n);
 
 int _putchar(char c);
 
