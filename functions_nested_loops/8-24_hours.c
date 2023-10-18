@@ -20,8 +20,7 @@ void jack_bauer(void)
 			putchar(':');
 			putchar(b / 10 + '0');
 			putchar(b % 10 + '0');
-			if (a != 23 || b != 59)
-				putchar('\n');
+			putchar('\n');
 			b++;
 		}
 		a++;
