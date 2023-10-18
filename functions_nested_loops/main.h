@@ -7,7 +7,7 @@
 
 #include <stdlib.h>
 
-void times_table(void);
+int add(int, int);
 
 int _putchar(char c);
 
