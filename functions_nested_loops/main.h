@@ -7,7 +7,7 @@
 
 #include <stdlib.h>
 
-int _abs(int n);
+int print_last_digit(int);
 
 int _putchar(char c);
 
