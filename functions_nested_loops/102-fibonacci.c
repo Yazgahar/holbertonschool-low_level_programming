@@ -9,7 +9,7 @@ int main(void)
 	long int a = 1, b = 2, next;
 	int count = 2;
 
-	printf("%ld, %ld ", a, b);
+	printf("%ld, %ld, ", a, b);
 
 	while (count < 50)
 	{
