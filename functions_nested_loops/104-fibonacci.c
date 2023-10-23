@@ -6,15 +6,15 @@
  */
 int main(void)
 {
-	unsigned int a = 1, b = 2, next;
+	unsigned long long a = 1, b = 2, next;
 	int count = 2;
 
-	printf("%u, %u, ", a, b);
+	printf("%llu, %llu, ", a, b);
 
 	while (count < 98)
 	{
 		next = a + b;
-		printf("%u", next);
+		printf("%llu", next);
 		if (count != 97)
 			printf(", ");
 		a = b;
