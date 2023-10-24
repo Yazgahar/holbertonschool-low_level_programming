@@ -10,6 +10,8 @@ int _atoi(char *s)
 	int res = 0;
 	short sign = 0;
 
+	if (*s == '\0')
+		return (0);
 	while (!(*s >= '0' && *s <= '9'))
 	{
 		if (*s == '-')
