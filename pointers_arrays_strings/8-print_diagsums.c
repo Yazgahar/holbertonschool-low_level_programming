@@ -14,8 +14,8 @@ void print_diagsums(int *a, int size)
 	anti_diagsum = 0;
 	for (i = 0; i < size; i++)
 	{
-		diagsum += a[i][i];
-		anti_diagsum += a[i][size - 1 - i];
+		diagsum += a[(size + 1) * i];
+		anti_diagsum += a[(size - 1) * (i + 1)];
 	}
 	printf("%d, %d\n", diagsum, anti_diagsum);
 }
