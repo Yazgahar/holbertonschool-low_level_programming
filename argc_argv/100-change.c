@@ -43,7 +43,7 @@ int main(int argc, char **argv)
 		price -= 2;
 		coin++;
 	}
-	coin += 1;
+	coin += price;
 	printf("%d\n", coin);
 	return (0);
 }
