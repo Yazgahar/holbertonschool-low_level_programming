@@ -36,7 +36,7 @@ char *_strdup(char *str)
 	while (str[i] != '\0')
 		i++;
 	newstr = (char *) malloc((i + 1) * sizeof(char));
-	if (i == 0)
+	if (newstr == 0)
 		return (0);
 	_strcpy(newstr, str);
 	return (newstr);
