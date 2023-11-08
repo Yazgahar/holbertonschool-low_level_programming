@@ -63,7 +63,7 @@ char *str_concat(char *s1, char *s2)
 	j = 0;
 	while (s2[j] != '\0')
 		j++;
-	if ((i + j) >= SIZE_MAX)
+	if ((i + j) == 0)
 		return (0);
 	res = malloc((i + j + 1) * sizeof(char));
 	if (res == 0)
