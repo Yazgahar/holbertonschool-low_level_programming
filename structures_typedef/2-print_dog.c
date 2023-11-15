@@ -1,11 +1,8 @@
 #include "dog.h"
 /**
- * struct dog - Short description
- * @name: Name of the dog
- * @age: Age of the dog
- * @owner: Name of the owner
+ * print_dog - print the elements of the structutre
+ * @d: compare parameter
  *
- * Description: Longer description
  */
 void print_dog(struct dog *d)
 {
