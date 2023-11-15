@@ -1,20 +1,16 @@
+#include "dog.h"
 /**
- * struct dog - Short description
- * @name: Name of the dog
- * @age: Age of the dog
- * @owner: Name of the owner
- *
- * Description: Longer description
- */
-struct dog
-{
-	char *name;
-	float age;
-	char *owner;
-};
+* init_dog - initialize the structure
+* @d: compare parameter
+* @name: name of the dog
+* @age: age of the dog
+* @owner: owner of the dog
+*/
 void init_dog(struct dog *d, char *name, float age, char *owner)
 {
-        d->name = name;
-        d->age = age;
-        d->owner = owner;
+	if (d == 0)
+		return;
+	d->name = name;
+	d->age = age;
+	d->owner = owner;
 }
